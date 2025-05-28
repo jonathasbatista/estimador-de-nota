@@ -34,7 +34,7 @@ traducoes = {
     'genero': {'Male': 'Masculino', 'Female': 'Feminino', 'Other': 'Outro'},
     'trabalho_integral': {'Yes': 'Sim', 'No': 'Não'},
     'qualidade_da_dieta': {'Poor': 'Ruim', 'Fair': 'Regular', 'Good': 'Boa'},
-   'nivel_de_ensino_parental': {'Master': 'Mestrado', 'High School': 'Ensino Médio', 'Bachelor': 'Graduação'},
+   'nivel_de_ensino_parental': {'Master': 'Mestrado', 'High School': 'Ensino Médio', 'Bachelor': 'Graduação', 'nan': 'Nenhuma'},
    'qualidade_da_internet': {'Poor': 'Ruim', 'Good': 'Boa', 'Average': 'Média'},
    'participacao_extracurricular': {'Yes': 'Sim', 'No': 'Não'}
 }
