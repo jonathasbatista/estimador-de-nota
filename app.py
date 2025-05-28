@@ -102,7 +102,7 @@ qualidade_dieta = st.selectbox("Qualidade da Dieta", df['qualidade_da_dieta'].un
 frequencia_exercicios = st.slider("Frequência de Exercícios por Semana", 0, 7, 3)
 nivel_ensino_parental = st.selectbox("Nível de Ensino Parental", df['nivel_de_ensino_parental'].unique())
 qualidade_internet = st.selectbox("Qualidade da Internet", df['qualidade_da_internet'].unique())
-avaliacao_mental = st.slider("Avaliação Mental", 3, 6, 8)
+avaliacao_mental = st.slider("Avaliação Mental", 0, 10, 6)
 participacao_extracurricular = st.selectbox("Participação Extracurricular", df['participacao_extracurricular'].unique())
 
 # Previsão
