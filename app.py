@@ -86,7 +86,8 @@ modelo = RandomForestRegressor(random_state=42)
 modelo.fit(x_train, y_train)
 
 # Interface Streamlit
-st.title("Previsor de Nota do Exame")
+st.set_page_config(page_title="Estimador de Nota do Exame", layout="centered")
+st.title("Estimador de Nota do Exame")
 st.divider()
 
 # Inputs do usuário
